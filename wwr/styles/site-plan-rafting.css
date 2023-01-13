@@ -10,7 +10,7 @@ Fonts are separated by a & */
   --primary-color: #0081a7   ;
   --secondary-color: #00afb9 ;
   --accent1-color: #99eba8;
-  --accent2-color: #f07167;
+  --accent2-color: #1f2f16;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Playfair Display SC";
@@ -21,9 +21,9 @@ Fonts are separated by a & */
   --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
   --paragraph-color-on-white: #black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #f07167  ;
+  --paragraph-background-color: #0081a7  ;
   --nav-link-color: #ffffff;
-  --nav-background-color: #0081a7;
+  --nav-background-color: #1f2f16;
   --nav-hover-link-color: #00afb9;
   --nav-hover-background-color: #ffffff;
 }
