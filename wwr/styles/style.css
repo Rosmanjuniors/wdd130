@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&family=Playfair+Display+SC&display=swap');
 
+:root{
+    --heading-font: "Playfair Display SC", Arial, sans-serif;
+    --paragraph-font: "Martel", Arial, Helvetica, sans-serif;
+}
 body {
     background-color: #fcfbfb;
+    font-family: "Martel", Arial, Helvetica, sans-serif;
+    font-size: 22px;
     margin: 0;
+    padding: 0;
 }
 
 h2 {
+    font-family: "Playfair Display SC", Arial, sans-serif;
     margin: 0;
     
 }
@@ -17,6 +26,8 @@ nav a {
     text-align: center;
     color: #FFFF;
     text-decoration: none;
+    font-family: "Martel", Arial, Helvetica, sans-serif;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -51,10 +62,15 @@ nav a:hover {
     color: #FFFF;
 }
 
-.book, .join, .learn-more {
+.book, .join {
     background-color: #00afb9;
     color: #FFFF;
     text-decoration: none;
+    font-family: "Martel", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -64,21 +80,29 @@ nav a:hover {
 
 .msg {
     background-color: #1f2f16;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 
 .msg h2{
     color: #FFFF;
+    font-family: "Playfair Display SC";
 }
 
 .msg p {
     color: #FFFF;
+    font-family: "Martel", Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 
 }
 
 footer {
     background-color: #1f2f16;
     color: #FFFF;
+    padding: 25px 50px;
+    margin-top: 200px;
 
 }
 
@@ -106,10 +130,30 @@ footer p a:hover{
 
 .home-title {
     color: #0081a7;
-
+    font-family: "Playfair Display SC", Arial, sans-serif;;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: #0081a7;
-
+    font-family: "Playfair Display SC", Arial, sans-serif;;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0081a7;
+}
+main section img {
+    box-sizing: border-box;
+}
+#logo_link {
+    padding-top: 5px;
 }
