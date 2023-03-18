@@ -40,12 +40,12 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: var(--heading-font);
+    font-family: "DM Serif Display";
 }
 
 body {
     background-color: var(--accent2-color);
-    font-family: var(--paragraph-font);
+    font-family: 'Source Sans Pro';
     font-size: 17px;
     margin: 0;
     padding: 0;
@@ -72,7 +72,6 @@ body {
     width: 110px;
     padding: 5px;
     border-radius: 5%;
-    box-shadow: #3d405b;
 }
 
 .button a {
