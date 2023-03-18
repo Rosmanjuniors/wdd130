@@ -203,7 +203,6 @@ Link: index.html
     width: 100%;
     background-size: cover;
     margin-top: 0px;
-    opacity: 0.9;
     background-position: 50%;
     background-repeat: no-repeat;
     grid-column: left/right;
@@ -225,11 +224,12 @@ Link: index.html
 }
 
 .home-title {
-    color: #000000;
+    color: #f0c57f;
     font-family: "DM Serif Display", Arial, sans-serif;
     ;
     font-size: 1.8em;
     margin-top: 10px;
+    text-shadow: 0 0 10px #000;
 }
 
 /* LOVE YOURSELF */
