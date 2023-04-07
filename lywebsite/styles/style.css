@@ -23,13 +23,15 @@ Global Variables
 
 /* Body */
 
-*{
+* {
     box-sizing: border-box;
 }
+
 h3 {
     text-align: center;
     margin-top: 10px;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -87,6 +89,7 @@ body {
     color: var(--secondary-color);
 
 }
+
 .button:hover {
     background-color: #e07a5f;
     color: #ffffff;
@@ -117,8 +120,8 @@ header {
 .logo_link {
     padding: 5px;
 }
-.logo_link:hover
-{
+
+.logo_link:hover {
     opacity: .8;
     transform: scale(1.09);
 }
@@ -147,10 +150,10 @@ nav a:hover {
 .topnav {
     background-color: #3d405b;
     overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -159,15 +162,15 @@ nav a:hover {
     text-decoration: none;
     font-size: 17px;
     border-bottom: 3px solid transparent;
-  }
-  
-  .topnav a:hover {
+}
+
+.topnav a:hover {
     border-bottom: 3px solid #81b29a;
-  }
-  
-  .topnav a.active {
+}
+
+.topnav a.active {
     border-bottom: 3px solid #81b29a;
-  }
+}
 
 
 
@@ -182,7 +185,7 @@ footer {
     margin-top: 100px;
     font-weight: 800;
     text-transform: uppercase;
-    
+
 }
 
 footer #copyright {
@@ -203,7 +206,7 @@ footer a:hover {
 footer .social {
     display: flex;
     justify-content: end;
-    
+
 }
 
 
@@ -244,7 +247,7 @@ Link: index.html
     grid-row: 2/3;
     align-self: center;
     text-transform: uppercase;
-    
+
 }
 
 .home-title {
@@ -299,13 +302,13 @@ Link: index.html
     margin: 20px;
     z-index: 5;
     box-shadow: 0 5px 20px #f0c57f;
-    
+
 }
 
 .quote-img img {
     width: 100px;
     border-radius: 50%;
-    
+
 }
 
 
@@ -340,12 +343,12 @@ Link: index.html
 
 #background {
     background-color: #81b29a;
-    height: 350px;
+    height: 400px;
     grid-column: 2/3;
     margin-left: -50px;
     margin-top: 20px;
     padding: 25px;
-   
+
 }
 
 
@@ -374,7 +377,7 @@ Link: aboutmentalh.html
 }
 
 /* About Mental Health Terms */
-  
+
 #aboutmentalh-left {
     padding: 20px;
 }
@@ -385,7 +388,7 @@ Link: aboutmentalh.html
 }
 
 
-.div-warning-sings{
+.div-warning-sings {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -393,8 +396,9 @@ Link: aboutmentalh.html
     justify-content: center;
     background-color: #e07a5f;
     margin-bottom: 20px;
-    
+
 }
+
 #anxiety-img {
     width: 100%;
     margin: 0px;
@@ -406,7 +410,8 @@ Link: aboutmentalh.html
     display: flex;
 }
 
-#aboutmentalh-bottom-txt {
+#aboutmentalh-bottom-txt1,
+#aboutmentalh-bottom-txt2 {
     background-color: #81b29a;
     border: solid #000000;
     padding: 18px;
@@ -420,13 +425,15 @@ Link: aboutmentalh.html
     padding: 18px;
 }
 
-#aboutmentalh-background p {
+#aboutmentalh-background p
+#psychotic-title p {
     color: #000000;
 }
 
 
-#aboutmentalh-bottom-txt h4,
-#aboutmentalh-background h4 {
+#aboutmentalh-bottom-txt2 h4,
+#aboutmentalh-background h4,
+#aboutmentalh-bottom-txt1 h4 {
     color: var(--secondary-color);
     font-size: 22px;
     margin: 0;
@@ -481,26 +488,31 @@ Link: howtogethelp.html
 }
 
 #byu-img {
-    width: 495px; 
+    width: 495px;
     border-radius: 1%;
-    
+
 }
 
 .w-full {
     width: 100%;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.container{
+.container {
     width: 100%;
     display: flex;
 }
 
-.w-50{
+.w-50 {
     width: 50%;
 }
 
 
+.div-text {
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+}
